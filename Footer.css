@@ -1,0 +1,124 @@
+.footer{  
+text-decoration: none;
+height: 500px;
+color: #7E7E7E;
+background-color: #111111;
+margin-top: 200px;
+box-sizing: border-box; 
+}
+
+
+
+.footer__Top{
+display: flex;
+text-decoration: none;
+justify-content: center;
+padding: 10px;
+font-size: 13px;
+text-transform: uppercase;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 700;
+}
+
+.li1{
+text-decoration: none;
+text-align: center;
+padding: 10px;
+list-style-type: none;
+}
+
+
+.footer__Icons > .MuiSvgIcon-root{
+align-items: center!important;
+justify-content: center!important;
+padding: 10px;
+color:black; 
+width: 18px;
+height:auto;
+border-radius: 45px;
+background-color: #7E7E7E;
+margin: 10px;
+}
+
+
+
+.footer__Icons{
+display: flex;
+justify-content: center;
+margin-bottom: 50px;
+}
+
+.riot__Info{
+margin-top:10px;
+display: flex;
+font-size: 12px;
+word-break: keep-all;
+max-width: 500px;
+margin: 0 auto;
+text-align: center;
+justify-content: center;
+}
+
+
+
+.riot__Links{
+display: flex;
+justify-content: center;  
+padding: 10px;
+  
+}
+
+.rating__Text{ 
+display: block;
+text-align: left;
+color: #efefef;
+margin-left: 6px;
+line-height: 19px;
+font-size: 15px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+max-width: 200px
+}
+
+
+.footer__Bottom{
+display: flex;
+text-align: left;
+color: #efefef;
+margin-left: 6px;
+line-height: 19px;
+font-size: 15px;
+font-family: "FF Mark W05";
+justify-content: center;
+
+}
+
+.list{
+color: #7E7E7E;
+padding: 10px; 
+list-style: none;
+text-decoration:underline
+}
+
+.footer__Bottom> img{
+display: flex;
+    
+}
+@media all and (max-width:650px){
+
+.footer{
+height: 600px;
+}
+
+    .footer__Top{
+display: block;
+font-size: 12px;
+}
+}
+
+
+@media all and (max-width:487px){
+.riot__Info{
+font-size:12px;
+width:250px
+    }
+}
